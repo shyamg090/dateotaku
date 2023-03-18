@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>DateOtaku</title>
+
+  <!-- Bootstrap5 link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Bootstrap js link --><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+<!-- css link should be below so that it is not affected by bootstrap -->
+  <!-- css styling -->
+  <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<body>
+  <section id="title">
+    <div class="container-fluid">
+    
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="">  DateOtaku</a>
+
+        <button class="navbar-toggler bg-white navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcontent" aria-controls="navbarcontent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarcontent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item" ><a class="nav-link" href="#title">Home</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#testimonials">Reviews</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#footer">Contact Me</a> </li>
+        </ul>
+        </div>  
+    </nav>
+
+    <!-- Title -->
+  <div class="row">  
+      <div class="col-lg-6 align-content-center">
+        <h1 id="h1">Meet new and interesting Otkau nearby.</h1>
+        <button type="button" class="btn dbtn">
+          <img class="playstore" src="images\playstore.png" alt="playicon"> Download</button>
+        <button type="button" class="btn dbtn">
+          <img class="playstore" src="images\apple-logo.png" alt="playicon"> Download</button>
+      </div>
+      <div class="col-lg-6 align-content-center" id="mobpic">
+        <img class="iphone" src="images\smartphone.png" alt="iphone-mockup">
+      </div>
+  </div>
+</div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+  <div class="row">
+    <div class="feature-box col-lg-4">
+      <img class="features-icon" src="images\check.png" alt="featuresicon">
+      <h3>Easy to use.</h3>
+      <p>So easy to use, even noob could do it.</p>
+    </div>
+    <div class="feature-box col-lg-4">
+      <img class="features-icon" src="images\target.png" alt="featuresicon">
+      <h3>Elite Clientele</h3>
+      <p>We have all the otaku, the greatest otaku's you'll see.</p>
+    </div>
+    <div class="feature-box col-lg-4">
+      <img class="features-icon" src="images\heart.png" alt="featuresicon">
+      <h3>Guaranteed to work.</h3>
+      <p>Find someone who share same thoughts as you.</p>
+    </div>
+  </div> 
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <div id="test-carousel1" class="carousel slide" data-ride="false">
+       <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <h2>I no longer had to play games,watch anime alone. I've found my perfect match to binge watch the series. Woof.</h2>
+          <img class="testi-img" src="images\849.jpg" alt="dog-profile"><br><br>
+          <em>Pebeles, New York</em>
+        </div>
+
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Just discussed a lot of fan theories, played valo, binge watched this new anime. This is definetely fun</h2>
+          <img class="testi-img" src="images\love.png" alt="lady-profile"><br><br>
+          <em>Bangalore, India</em>
+        </div>
+
+      </div>
+<!-- data-bs-target="" or href="" can be used  -->
+<!-- data-bs-slide is used to slide next or prev -->
+      <a class="carousel-control-prev" href="#test-carousel1" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+  
+      <a class="carousel-control-next" href="#test-carousel1" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+
+
+    </div>
+    
+
+    
+
+    
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="pressimg" src="images/techcrunch.png" alt="tc-logo">
+    <img class="pressimg" src="images/tnw.png" alt="tnw-logo">
+    <img class="pressimg" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="pressimg" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+
+  <section id="pricing">
+    <h2 class="h2price">A Plan every Otaku Needs</h2>
+    <p class="pprice">Simple and affordable price plans for you.</p>
+
+
+    <div class="row cards-text">
+      
+      <div class="col-lg-4">
+      <div class="card">
+        <div class="card-header">
+          <h3>Free</h3>
+        </div>
+        <div class="card-body">
+          <h2>$0 / mo</h2>
+          <p>5 Matches Per Day</p>
+          <p>10 Messages Per Day</p>
+          <p>Unlimited App Usage</p>
+          <button type="button">Sign Up</button>
+        </div>
+      </div>
+    </div>  
+
+        <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Pro</h3>
+          </div>
+          <div class="card-body">
+            
+            <h2>$49 / mo</h2>
+            <p>100 Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button type="button">Sign Up</button>
+          </div>
+        </div>  
+      </div>
+
+          <div class="col-lg-4">
+            <div class="card">
+            <div class="card-header">
+              <h3>Legendary</h3>
+            </div>
+            <div class="card-body">
+             
+              <h2>$99 / mo</h2>
+              <!-- <p>Pirority Listing</p> -->
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button type="button">Sign Up</button>
+            </div>
+          </div>
+          </div>  
+        <!-- <div class="card-footer">
+          Lorem ipsum dolor sit amet.
+        </div> -->
+      </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <!-- <section id="cta">
+
+    <h3>download the content</h3>
+    <button type="button">Download</button>
+    <button type="button">Download</button>
+
+  </section> -->
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <div class="row">
+      <div class="col-lg-4 fut">
+        <a class="alink" href="https://www.linkedin.com/in/shyam-g-6712a522b">Linkedin</a>
+      </div>
+      <div class="col-lg-4 fut">
+        <a class="alink" href="https://twitter.com/_Shyam_G">Twitter</a>
+      </div>
+      <div class="col-lg-4 fut">
+        <a class="alink" href="https://github.com/shyamg090?tab=repositories">Github</a>
+      </div>
+
+    </div>
+    <p>© Copyright DateOtaku</p>
+
+  </footer>
+
+
+</body>
+
+</html>
