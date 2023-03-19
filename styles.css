@@ -2,7 +2,7 @@ body{
     font: "Montserrat";
 }
 #title{
-    background-color: #ff1940;
+    background-color: #ff6a06;
     color: white;
 }
 .container-fluid{
@@ -19,7 +19,10 @@ body{
     font-family: 'Righteous', cursive;
     transition: 1s;
 }
-.navbar:hover{
+.navbar-brand:hover{
+    color: #000000;
+}
+.nav-link:hover{
     color: #000000;
 }
 .nav-item{
@@ -38,8 +41,8 @@ body{
 }
 .dbtn{
     color: white;
-    background-color: rgba(255, 255, 255, 0);
-    border-color: #00000000;
+    /* background-color: rgba(255, 255, 255, 0);
+    border-color: #00000000; */
     margin: 1.5rem 3rem 0 0;
     padding: .6rem;
     transition: .02s;
@@ -83,14 +86,14 @@ body{
     margin: 2rem 0 0.5rem 0;
 }
 /* testimonials */
-h2{
+h2, h3 {
     font-family: 'Josefin Sans', sans-serif;
     font-weight:900;
     font-size: 2.3rem;
 }
 #testimonials{
    
-    background-color: #ff1940;
+    background-color: #ff6a06;
     color: white;
 
 }
@@ -108,7 +111,7 @@ h2{
 }
 #press{
     padding: 1rem;
-    background-color: #ff1940;
+    background-color: #ff6a06;
     text-align: center;
 }
 .pressimg{
@@ -138,20 +141,27 @@ h2{
 
 #footer{
     text-align: center;
-    padding: 2rem;
-    background-color: #ff1940;
-    color: white;
+    padding: 1.1rem;
+    background-color: #ff6a06;
+    /* color: white; */
     font-family: 'Josefin Sans', sans-serif;
+
 }
-.fut{
-    padding: 1.5rem;
-    text-align: center;
-    font-size: 1.5rem;
-    color: white;
+.rowfooter{
+    padding: 1.8rem;
+
+}
+.footimg{
+    width: 2rem;
+    height: 2rem;
+    margin:0 .1rem 0 0;
+    padding: 0;
 
 }
 .alink{
-    color: white;
+   padding: 2rem;
+   margin: 0 2rem 0 2rem;
+   color: #00000000;
 }
 
 @media (max-width:990px) {
@@ -166,6 +176,9 @@ h2{
     }
     .pprice{
         text-align: center;
+    }
+    #features{
+        padding: 1rem;
     }
     
 }
